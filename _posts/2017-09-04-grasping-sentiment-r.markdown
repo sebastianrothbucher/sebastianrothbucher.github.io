@@ -131,6 +131,10 @@ The full script is available as [gist](https://gist.github.com/sebastianrothbuch
 
 Roughly one in three words in above songs actually has some sentiment. All others are simply ignored. I could dive into things like stemming (there's methods for this in [tm]) - however, when looking at the words not assigned (like 'back', 'cruising', 'go', 'just', 'kids'), there doesn't seem to be a lot of value in assigning sentiments in the first place. Still good to know I don't really miss out on anything. And depending on use case, a little extra effort might still be required.
 
+**P.P.S.: subtlety throws the best**
+
+To check how other implementations cope with subtle texts, I tried [Microsoft's text analytics service](https://azure.microsoft.com/de-de/services/cognitive-services/text-analytics/) (there is an online playground) with 'This is amazing' (marked positive), 'It sucks' (marked negative) and 'Amazing to see how people keep trying to achieve what my cat could do while asleep' (marked *positive*). So, they struggle with the phenomenon, too. And, if it's really true that stronger e-mails get looked at preferably then one would have to become very blunt or very sarcastic to be read at all :-(
+
 [tm]: https://cran.r-project.org/web/packages/tm/index.html
 [tidytext]: https://cran.r-project.org/web/packages/tidytext/index.html
 
