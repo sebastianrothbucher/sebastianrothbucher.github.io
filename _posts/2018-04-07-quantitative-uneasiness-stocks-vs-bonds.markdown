@@ -43,8 +43,6 @@ curl 'https://fred.stlouisfed.org/graph/fredgraph.csv?chart_type=line&recession_
 curl 'https://fred.stlouisfed.org/graph/fredgraph.csv?chart_type=line&recession_bars=on&log_scales=&bgcolor=%23e1e9f0&graph_bgcolor=%23ffffff&fo=Open+Sans&ts=12&tts=12&txtcolor=%23444444&show_legend=yes&show_axis_titles=yes&drp=0&cosd=2013-02-06&coed=2018-02-05&height=450&stacking=&range=Custom&mode=fred&id=BAMLCC0A1AAATRIV&transformation=lin&nd=1988-12-16&ost=-99999&oet=99999&lsv=&lev=&mma=0&fml=a&fgst=lin&fgsnd=2009-06-01&fq=Daily%2C+Close&fam=avg&vintage_date=&revision_date=&line_color=%234572a7&line_style=solid&lw=2&scale=left&mark_type=none&mw=2&width=1168' -o bofamlbndaaa.csv
 ```
 
-(when looking at the repo, you'll get the files checked in)
-
 If you're a PhD economist, you've probably started crying long before. And I know: this is incredibly imprecise and superficial - and it's not my intention to be scientific (**which I am not**): I'm not going not apply for your job anytime soon, I just want to show how a little bit of R and basic analysis empowers everone to dig a little deeper. After all, we should make informed decisions and read up a little more. 
 
 A propos reading up: NYT did a great piece about how everyone struggles with figguring out [when exactly the (stock) party will be over](https://www.nytimes.com/2018/01/04/business/market-dow-2018.html?_r=0). Also listening up can work: Monocle24 investigated the [recent selloff in stocks](https://monocle.com/radio/shows/the-bulletin-with-ubs/175/) and the not-so-simple implications looking ahead.
