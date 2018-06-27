@@ -16,7 +16,7 @@
 title: Sebastian's iRregular notes
 #email: sebastianrothbucher@googlemail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A blog about JavaScript, Data Science, visualization and other TGIF projects
+  A blog about JavaScript, Frontend, visualization and TGIF projects
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: true
