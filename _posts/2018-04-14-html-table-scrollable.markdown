@@ -50,4 +50,6 @@ Waiting on render cycle has the advantage of using the browser layout engine tho
 
 I've added this to aforementioned stackoverflow post and I've put up a [codepen](https://codepen.io/sebredhh/pen/QmJvKy) with the full example. It random-generates values for quite different cols. In fact, for a solution with close to no tweaking yet, this works quite nicely across browsers (incl. IE in this [gist](https://gist.github.com/sebastianrothbucher/97444a9cae32e6fca8ef576f22cf4ec7) and Safari).  
 
+**Little update:** one can actually do this in CSS only, but not in all browsers just yet using ```position: sticky;``` with the ```th``` element. See yet another [codepen](https://codepen.io/sebredhh/pen/jKGREz) with that.
+
 As ever, I hope you found this useful or inspiring - let me know what you think!
