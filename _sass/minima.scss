@@ -11,13 +11,13 @@ $base-line-height: 1.5 !default;
 $spacing-unit:     30px !default;
 
 // thx, https://coolors.co/2176ae-e7eb90-4d5359-fadf63-e6af2e
-$text-color:       #4D5359;
+$text-color:       darken(#4D5359, 5%);
 $background-color: #fdfdfd !default;
 $brand-color:      #2176AE;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($brand-color, 15%);
+$grey-color-dark:  $brand-color;
 
 $table-text-align: left !default;
 
@@ -51,7 +51,7 @@ $on-laptop:        800px !default;
   "minima/syntax-highlighting"
 ;
 
-// sth spec - thx again, https://coolors.co/2176ae-e7eb90-4d5359-fadf63-e6af2e
+// override sth spec - thx again, https://coolors.co/2176ae-e7eb90-4d5359-fadf63-e6af2e
 .highlight {
   .highlighter-rouge & {
     background: lighten(#ADACB5, 25%);
@@ -61,4 +61,19 @@ pre,
 code {
   background-color: lighten(#ADACB5, 25%);
 }
+a {
+  &:visited {
+    color: darken($brand-color, 10%);
+  }
+}
 
+// tweak post text
+.post-content {
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
