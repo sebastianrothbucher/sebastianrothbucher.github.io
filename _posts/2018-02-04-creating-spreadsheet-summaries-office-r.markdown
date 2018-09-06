@@ -27,7 +27,7 @@ The result is one data frame with the summary of all the sheets in question. On 
 
 For LibreOffice, it's a little non-obvious, but also possible: first, create a new database via *File > New > Database* and choose *Connect to an existing database* of type *Text*. LibreOffice then asks pretty much the same questions that come up when opening one CSV in Calc. Just like the Excel counterpart, one has to choose a folder - and all files of it become a table each of a virtual "database". In the last page of the wizard, opt to *register* the database and save the resultant database file (basically just meta-info) somewhere. Final step after all of this is (within Calc) creating a Pivot Table via *Data > Pivot Table > Create...* and choose a *Data source registered* in LibreOffice as the selection - namely the database created before.
 
-Or, alternatively, one can use R itself, poss. with [Shiny](http://shiny.rstudio.com/) (see also [Shiny 4 real]({% post_url 2017-10-28-shiny-r-sentiment-interactive-web %})) or [RMarkdown](http://rmarkdown.rstudio.com/) / [knitr](https://cran.r-project.org/web/packages/knitr/) (see also [knitting - using RMarkdown]({% post_url 2018-02-03-knitting-rmarkdown-jekyll-blogging %})) to make it nice. 
+Or, alternatively, one can use R itself, poss. with [Shiny](http://shiny.rstudio.com/) (see also [Shiny 4 real]({% post_url 2017-10-28-shiny-r-sentiment-interactive-web %})) or [RMarkdown](http://rmarkdown.rstudio.com/) / [knitr](https://cran.r-project.org/web/packages/knitr/) to make it nice. 
 
 By the way (though I did not try that one), there is also a package to read Open Document Spreadsheet (ODS) files called [readODS](https://cran.r-project.org/web/packages/readODS/). 
 
