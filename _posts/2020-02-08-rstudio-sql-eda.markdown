@@ -53,6 +53,14 @@ along with the ```View(resdetail)``` (or clicking *resdetail* in the *Environmen
 
 What makes one-liners so efficient is recall: you can try variations - and also get a previous query back from the *History* tab of RStudio really quickly.
 
+Along with ```limit``` (at least in MariaDB), there is paging - like: 
+
+```r
+df <- dbFetch(dbSendQuery(con, 'select * from eav_attribute limit 5,10'))
+```
+
+which skips five rows and returns the 10 after that.
+
 There are warnings about the previous query being cancelled - but again: we're in EDA.
 
 ## Multi-tab / updating result sets
