@@ -75,7 +75,13 @@ The above
 df <- dbFetch(dbSendQuery(con, 'explain eav_attribute'))
 ```
 
-retrieves the metadata on ```eav_attribute``` (could be any other table).
+retrieves the metadata on ```eav_attribute``` (could be any other table) while
+
+```r
+df <- dbFetch(dbSendQuery(con, 'show tables'))
+```
+
+returns a list of all tables.
 
 ## To wrap things up...
 
