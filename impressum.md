@@ -6,8 +6,8 @@ permalink: /impressum/
 
 **Angaben gemäß § 5 TMG:**\\
 Sebastian Rothbucher\\
-Stuvkamp 2\\
-22081 Hamburg
+Spohrstr 37\\
+60381 Frankfurt/Main
 
 **Kontakt:**\\
 E-Mail: sebastianrothbucher@googlemail.com
