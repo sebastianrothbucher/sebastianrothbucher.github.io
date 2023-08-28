@@ -6,8 +6,8 @@ permalink: /impressum/
 
 **Angaben gemäß § 5 TMG:**\\
 Sebastian Rothbucher\\
-Spohrstr 37\\
-60381 Frankfurt/Main
+Neue Mauerstraße 2\\
+61348 Bad Homburg v.d.H.
 
 **Kontakt:**\\
 E-Mail: sebastianrothbucher@googlemail.com
