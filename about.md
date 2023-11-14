@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Sebastian. I've dived into many interesting subjects: making sense of data and creating apps that allow people to make a difference and provide great service. This involves a lot of JavaScript plus data science, visualization and databases.
+Hi, I'm Sebastian. I'm a Cloud Fullstack Engineer - creating apps and services on the Web. This is a space for sharing the occasional (and maybe odd) idea. 
 
 Feel free to get in touch - drop me a note at sebastianrothbucher@googlemail.com
 
