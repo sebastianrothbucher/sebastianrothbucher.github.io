@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tracking without hassle - finally - with properties in Obsidian"
+title: "Tracking w/out hassle - finally - by properties in Obsidian / markdown"
 date:   2024-02-03 18:00:00 +0100
 categories: markdown pm management reporting controlling kpi obsidian
 ---
