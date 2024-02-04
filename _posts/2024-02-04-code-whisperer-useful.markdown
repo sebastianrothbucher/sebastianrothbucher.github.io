@@ -5,9 +5,9 @@ date:   2024-02-04 20:00:00 +0100
 categories: software development ai assistant codewhisperer
 ---
 
-When I first checked out AI coding assistants about two years ago, I was less than impressed, to say the least. Why automate stuff that is <10% of your day and is largely muscle memory anyway? Having used CodeWhisperer for some personal stuff recently, I gotta say I'm really impressed after all. The *option+C* in VSCode really is super-helpful, esp. in contexts where frameworks differ, change or just evolve quickly. The machine can read and copy faster than I ever could - and that's what makes it quite handy. 
+When I first checked out AI coding assistants about two years ago, I was less than impressed, to say the least. Why automate stuff that is less than 10% of your day and is largely muscle memory anyway? Having used CodeWhisperer for some personal stuff recently, I gotta say I'm really impressed after all. The *option+C* in VSCode really is super-helpful, esp. in contexts where frameworks differ, change or just evolve quickly. The machine can read and copy faster than I ever could - and that's what makes it quite handy. 
 
-So the short answer to the title is a resounding YES! CodeWhisperer is definitely useful. Even in ways I would not have thought. My learning here is: it's not just about repetition (copy and paste is quite efficient there), it's also about ***variation***. 
+So the short answer to the title is a resounding ***YES!*** CodeWhisperer is definitely useful. Even in ways I would not have thought. My learning here is: it's not just about repetition (copy and paste is quite efficient there), it's also about ***variation***. 
 
 Let me explain the last part a little: the more often one of 
 
