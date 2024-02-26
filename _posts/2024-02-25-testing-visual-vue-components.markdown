@@ -85,6 +85,16 @@ const mySub = wrapper.findComponent(MySub);
 expect(mySub.props('foo')?.bar).toBe(42);
 ```
 
+## *nextTick* for computed et al
+
+If we have computed props and similar, calling
+
+```javascript
+await wrapper.vm.$nextTick();
+```
+
+might make a ton of sense as we give Vue a chance to compute and poss. re-render all we have.
+
 ## So...
 
 ...even though it's only second preferennce, there is a quite pragmatic approach to testing single components in the Vue ecosystem. 
