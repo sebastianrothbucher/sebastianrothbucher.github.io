@@ -100,6 +100,31 @@ With Gen-AI being all the craze, just firing off "Claim 5h on this task in this 
 
 Besides, as a super-simple option, just checking plain markdown into github can also work. Properties are available in markdown throughout - and search is a feature of IDEs throughout, including VSCode with *Meta-P* (yes, I know - almost the same). So I could have just written up "use VSCode to check markdown with properties to github". And that's a legit option. All scripts apply just the same. 
 
+### VSCode snippets
+
+VSCode has a snippets feature (see this [Introduction](https://dev.to/ceceliacreates/use-vs-code-snippets-to-generate-markdown-front-matter-fpc)) that allows for almost fully automating markdown properties - like timesheets. No tools needed outside VSCode, and it's *fast*.
+
+Sticking with the timesheet example, you can create a file `.vscode/snippets.code-snippets` in your project and give it a content like this one: 
+
+```json
+{
+  "Timesheet": {
+		"scope": "markdown",
+		"prefix": "timesheet",
+		"description": "Timesheet entry",
+		"body": [
+			"---",
+			"timespent: \"0\"",
+      "date: 2000-00-00",
+			"---",
+			""
+		]
+	}
+}
+```
+
+Now, in any mardown file, you can type `time` (or `timesheet`), press CTRL+SPACE and choose the snipped from the IntelliSense. 
+
 ## Wrap-up
 
 There's a lot of value in markdown properties (allowing for automated processing of info) + good search. Obsidian is a way, much can be emulated with plain VSCode and github as well. In any case, it's a *massive* improvement vis-a-vis "legacy" tools. 
