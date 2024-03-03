@@ -109,17 +109,17 @@ Sticking with the timesheet example, you can create a file `.vscode/snippets.cod
 ```json
 {
   "Timesheet": {
-		"scope": "markdown",
-		"prefix": "timesheet",
-		"description": "Timesheet entry",
-		"body": [
-			"---",
-			"timespent: \"0\"",
+    "scope": "markdown",
+    "prefix": "timesheet",
+    "description": "Timesheet entry",
+    "body": [
+      "---",
+      "timespent: \"0\"",
       "date: 2000-00-00",
-			"---",
-			""
-		]
-	}
+      "---",
+      ""
+    ]
+  }
 }
 ```
 
