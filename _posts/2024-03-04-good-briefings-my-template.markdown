@@ -45,7 +45,7 @@ Anyhow: here's my take as in a template to fill by asking important questions:
 
 #### Quick summary of the solution
 
-#### Steps the user / costomer goes through (journey; bullets / chevron diagram)
+#### Steps the user / customer goes through (journey; bullets / chevron diagram)
 
 #### Concrete walkthrough (no generic terms, name customers and products)
 
@@ -55,7 +55,7 @@ Anyhow: here's my take as in a template to fill by asking important questions:
 
 #### Quick summary of the solution
 
-#### Steps the user / costomer goes through (journey; bullets / chevron diagram)
+#### Steps the user / customer goes through (journey; bullets / chevron diagram)
 
 #### Concrete walkthrough (no generic terms, name customers and products)
 
