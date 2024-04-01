@@ -30,16 +30,18 @@ Register for preview (e-mail / fakedoor)
 To get it to work, add my script as a new paragraph somewhere inside your markdown: 
 
 ```html
-<script src="https://sebastianrothbucher.github.io/markdown-customer-journey/journey.js" integrity="sha256-ZFSGUnWes55F38HK2qhbf9fkaof1q09+/u0xK/qDZUM=" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://sebastianrothbucher.github.io/markdown-customer-journey/journey.css" integrity="sha256-DKIFVnWRbqnuy8t5ncTIU9DVvU99yuIcnaPnUv8i4pM=" crossorigin="anonymous" />
+<script src="https://sebastianrothbucher.github.io/markdown-customer-journey/journey.js" integrity="sha256-D3HE7MCcr+8t3sfyX6fjWfA7IWWGs7rP9OcY+UwNmQs=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://sebastianrothbucher.github.io/markdown-customer-journey/journey.css" integrity="sha256-HS161UTL65qQ6bfBULdFvROSbEE9w8uTvXvVJbTvvAk=" crossorigin="anonymous" />
 ```
 
-<script src="https://sebastianrothbucher.github.io/markdown-customer-journey/journey.js" integrity="sha256-ZFSGUnWes55F38HK2qhbf9fkaof1q09+/u0xK/qDZUM=" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://sebastianrothbucher.github.io/markdown-customer-journey/journey.css" integrity="sha256-DKIFVnWRbqnuy8t5ncTIU9DVvU99yuIcnaPnUv8i4pM=" crossorigin="anonymous" />
+<script src="https://sebastianrothbucher.github.io/markdown-customer-journey/journey.js" integrity="sha256-D3HE7MCcr+8t3sfyX6fjWfA7IWWGs7rP9OcY+UwNmQs=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://sebastianrothbucher.github.io/markdown-customer-journey/journey.css" integrity="sha256-HS161UTL65qQ6bfBULdFvROSbEE9w8uTvXvVJbTvvAk=" crossorigin="anonymous" />
 
 And that's it!
 
 The selector supports both [pandoc](https://pandoc.org/)'s rendering (`pre.journey` as well as github page's rendering `.language-journey`) of the code block.
+
+You find the source code (MIT licensed) in this [github repo](https://github.com/sebastianrothbucher/markdown-customer-journey)
 
 Many thanks to Jacob Okamoto who had this idea first - just for D3 and graphviz instead of some specific CSS+SVG. You can read about it in his blog here: [ howto => GraphViz in Markdown](https://oko.io/howto/graphviz-in-markdown/)
 
