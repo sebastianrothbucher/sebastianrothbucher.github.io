@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Modernizing Applications in the AWS Cloud using EDA
+title: Modernizing Applications in the AWS Cloud using EDA pt. 1-4
 date: 2025-03-30 17:00:00 +0200
 categories: aws eda modernize serverless service cloudnative development tech
 ---

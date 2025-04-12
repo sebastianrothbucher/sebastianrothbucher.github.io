@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting IoT profitable
+title: Getting IoT profitable pt. 1-4
 date: 2025-03-30 17:00:00 +0200
 categories: aws iot iiot customerjourney modernize service cloudnative development tech
 ---
