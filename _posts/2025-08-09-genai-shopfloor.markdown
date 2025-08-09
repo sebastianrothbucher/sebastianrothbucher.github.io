@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GenAI Transforming Manufacturing: From Shopfloor to Impact
+title: "GenAI Transforming Manufacturing: From Shopfloor to Impact"
 date: 2025-08-09 19:30:00 +0200
 categories:  aws shopfloor manufacturing iiot genai digital
 ---
