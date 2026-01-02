@@ -16,6 +16,7 @@ Here's a short list of not-so-obvious tools I did find helpful time and time aga
 - [mbpoll](https://github.com/epsilonrt/mbpoll)
 - [mitmproxy](https://github.com/mitmproxy/mitmproxy)
 - [oauth2-test-tool](https://github.com/SeldonIO/oauth2-test-tool)
+- [petite-vue](https://github.com/vuejs/petite-vue)
 - [postgrest](https://github.com/PostgREST/postgrest)
 - [rclone](https://github.com/rclone/rclone)
 - [telegraf](https://github.com/influxdata/telegraf)
