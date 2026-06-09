@@ -21,6 +21,7 @@ Here's a short list of not-so-obvious tools I did find helpful time and time aga
 - [rclone](https://github.com/rclone/rclone)
 - [telegraf](https://github.com/influxdata/telegraf)
 - [tesseract](https://github.com/tesseract-ocr/tesseract)
+- [typst](https://github.com/typst/typst)
 - [vouch-proxy](https://github.com/vouch/vouch-proxy)
 - [webdav](https://github.com/hacdias/webdav)
 - [wstunnel](https://github.com/erebe/wstunnel)
